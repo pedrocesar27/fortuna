@@ -7,14 +7,28 @@ body {
     color: #DBE7C9;
     margin: 0;
     height: 100%;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+h2, h3 {
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 header {
-    width: 100%;
     padding: 1rem 2rem;
     display: flex;
     justify-content:space-between;
     align-items: center;
+}
+
+header img {
+    height: 30px;
 }
 
 .logo {
@@ -22,4 +36,72 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 7%;
+    color: #DBE7C9;
+    text-decoration: none;
+}
+
+.logo h2 {
+    margin: 1%;
+    font-weight: 600;
+}
+
+main {
+    margin-inline: 30%;
+}
+
+.balance-card {
+    padding: 3% 5%;
+    background-color: #50623A;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.balance-card h3 {
+    margin-block-start: 3%;
+    margin-block-end: 3%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25)
+}
+
+.balance-card h1 {
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25)
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5%;
+}
+
+.action-button {
+    background-color: #789461;
+    width: 31%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.action-button img {
+    margin-block-start: 10%;
+}
+
+.action-button h3 {
+    color: #DBE7C9;
+    text-decoration: none;
+    margin-block-start: 3%;
+    margin-block-end: 10%;
+    text-shadow: 0 0 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #50623A; /* cor suave para fundo escuro */
+  margin: 1rem 0;
 }

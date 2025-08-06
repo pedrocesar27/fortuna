@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #294B29;
+    color: #DBE7C9;
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}

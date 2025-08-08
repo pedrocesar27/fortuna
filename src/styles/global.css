@@ -105,3 +105,56 @@ hr {
   border-top: 1px solid #50623A; /* cor suave para fundo escuro */
   margin: 1rem 0;
 }
+
+.transaction-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+
+.transaction-item img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #50623A;
+  padding: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-info {
+  display: flex;
+  gap: 15%;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px; /* igual à altura da imagem */
+  overflow: hidden;
+}
+
+.transaction-info h3,
+.transaction-info p {
+  margin: 0;
+  line-height: 1;
+  color: #DBE7C9;
+}
+
+.transaction-info p {
+  color: #789461;
+}
+
+.transaction-amount {
+  font-size: 1rem;
+  font-weight: 600;
+  justify-self: end;
+  color: #DBE7C9;
+}
+
+.transaction-amount.positive {
+  color: #B9FBC0;
+}
+
+.transaction-amount.negative {
+  color: #FF6B6B;
+}
